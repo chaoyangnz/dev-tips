@@ -24,7 +24,7 @@ This means public network can access your local port.
 
 `$ ssh -L 80:localhost:8080 user@example.com`
 
-Now the public user can access the server's 80 port, further forwarding to your local 8080 port for response.
+Now the public user can access the server's 80 port (example.com:80), further forwarding to your local 8080 port for response.
 
 There is one more thing you need to do to enable this. 
 SSH doesn’t by default allow remote hosts to forwarded ports. 
