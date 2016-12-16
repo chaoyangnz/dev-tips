@@ -1,5 +1,7 @@
 # On Mac OSX
 
+## `lsof` - List Open Files
+
 Simple way:
 
 `lsof -i :8080 -P`
