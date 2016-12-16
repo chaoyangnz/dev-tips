@@ -20,7 +20,7 @@ This means public network can access your local port.
 
 `$ ssh -R remote-port:local-host:local-port user@example.com`
 
-## An example: let public network user access your web server located in LAN
+## An example: public network user access your web server located in LAN
 
 `$ ssh -L 80:localhost:8080 user@example.com`
 
