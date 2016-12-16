@@ -3,7 +3,7 @@
 
 This means you can access a remote port by local port.
 
-`$ ssh -L 9000:localhost:80 user@example.com`
+`$ ssh -L local-port:remote-host:remote-port user@example.com`
 
 ## An example: access a database server which can be only accessible by local
 
@@ -18,7 +18,11 @@ Now you can access local 54322 port to access the remote Postgres server (listen
 
 This means public network can access your local port.
 
-`$ ssh -L 8080:localhost:80 user@example.com`
+`$ ssh -R remote-port:local-host:local-port user@example.com`
+
+## An example: let public network user access your web server located in LAN
+
+`$ ssh -L 80:localhost:8080 user@example.com`
 
 Now the public user can access the server's 80 port, further forwarding to your local 8080 port for response.
 
