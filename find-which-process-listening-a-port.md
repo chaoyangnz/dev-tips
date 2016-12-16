@@ -1,6 +1,6 @@
 # On Mac OSX
 
-## `lsof` - List Open Files
+## `lsof` - list open files
 
 Simple way:
 
