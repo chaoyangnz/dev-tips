@@ -22,7 +22,7 @@ This means public network can access your local port.
 
 ## An example: public network user access your web server located in LAN
 
-`$ ssh -L 80:localhost:8080 user@example.com`
+`$ ssh -R 80:localhost:8080 user@example.com`
 
 Now the public user can access the server's 80 port (example.com:80), further forwarding to your local 8080 port for response.
 
