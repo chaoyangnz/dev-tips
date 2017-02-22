@@ -1,6 +1,6 @@
 `vi /etc/gdm3/daemon.conf`
 
-Under security type `AllowRoot=true`
+Under security section [security], add a line `AllowRoot=true`
 
 `vi /etc/pam.d/gdm-password`
 
