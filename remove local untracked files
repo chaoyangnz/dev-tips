@@ -1,5 +1,5 @@
 If you want to see which files will be deleted you can use the -n option before you run the actual command:
-```
+```bash
 git clean -n
 ```
 
