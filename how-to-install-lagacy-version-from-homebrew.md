@@ -24,3 +24,7 @@ https://raw.githubusercontent.com/Homebrew/homebrew-core/5f0dab7e13ea215f816660d
 - run `brew install https://raw.githubusercontent.com/Homebrew/homebrew-core/5f0dab7e13ea215f816660dae46fd9fda81b1606/Formula/hugo.rb`
 
 Bingo! If you need to install other package, the way is the same.
+
+
+## reference
+https://www.fernandomc.com/posts/brew-install-legacy-hugo-site-generator/
