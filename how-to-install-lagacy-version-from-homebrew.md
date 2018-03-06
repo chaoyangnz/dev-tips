@@ -16,8 +16,7 @@ Sadly, there is no previous version provided.
 
 So please follow these steps:
 
-- open [Homebrew Core](https://github.com/Homebrew/homebrew-core)
-- go to directory [Formula](https://github.com/Homebrew/homebrew-core/tree/master/Formula)
+- open [Homebrew Core](https://github.com/Homebrew/homebrew-core) and go to directory [Formula](https://github.com/Homebrew/homebrew-core/tree/master/Formula)
 - search your package, like mine [`hugo.rb`](https://github.com/Homebrew/homebrew-core/blob/master/Formula/hugo.rb)
 - once found, click `History` button and find the commit of your expected version
 - until now, we get its [history version](https://github.com/Homebrew/homebrew-core/blob/5f0dab7e13ea215f816660dae46fd9fda81b1606/Formula/hugo.rb) of this file, view its `Raw` content, copy the URL, like:
