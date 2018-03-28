@@ -27,3 +27,7 @@ And to push changes to remote repo
 ```bash
 git push origin branch_name
 ```
+
+# Changing author info
+
+https://help.github.com/articles/changing-author-info/
